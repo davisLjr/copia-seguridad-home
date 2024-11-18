@@ -6,7 +6,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* Coloca aquí las fuentes y estilos de iconos que necesites */}
+          <meta charSet="UTF-8" />
+          <meta name="description" content="Agradecimiento a Neitrys Barrera, con su ayuda puedo desarrollar paginas web." />
+          <meta name="keywords" content="Neitrys Barrera, información, enseñanza, profesora, neitrys, neitrys barrera" />
           <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
             rel="stylesheet"
@@ -25,6 +27,7 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
+          <h1 style={{ opacity: 0, height: '1px' }} >Neitrys Barrera</h1>
           <Main />
           <NextScript />
           <script
