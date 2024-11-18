@@ -1,0 +1,17 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /admin
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Host
+Host: https://copiahomeobelisco.vercel.app
+
+# Sitemaps
+Sitemap: https://copiahomeobelisco.vercel.app/sitemap.xml
